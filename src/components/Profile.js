@@ -15,7 +15,7 @@ const Profile = () => {
       console.log("fetching data");
       const accessToken = await getAccessTokenSilently({
         authorizationParams: {
-          audience: `http://localhost:3000/api/v1`
+          audience: process.env.REACT_APP_AUTH0_AUDIENCE,
         },
       });
 

@@ -5,7 +5,9 @@ const LoginButton = () => {
 
   return ( 
     <div className="">
-        <button className="bg-indigo-950 p-5 rounded-xl m-10"  onClick={() => loginWithRedirect()}>Log In</button>
+        <button className="bg-indigo-950 p-5 rounded-xl m-10"  onClick={() => loginWithRedirect()}>
+          Log In
+        </button>
     </div>
   )
 };
